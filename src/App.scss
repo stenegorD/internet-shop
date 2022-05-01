@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Concert+One&family=Poppins&display=swap&family=Concert+One&family=Open+Sans&display=swap&family=Outfit:wght@400;700&display=swap&family=Concert+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: "Outfit", sans-serif;
+  font-family: "Concert One", cursive;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #322f2f;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+
+#root,
+html,
+body {
+  height: 100%;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
